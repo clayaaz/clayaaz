@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @clayaaz
-- 👀 I’m interested in Machine Learning
-- 🌱 I’m currently learning Machine Learning
-- 💞️ I’m looking to collaborate on Machine Learning
+- 👀 I’m interested in AI
+- 🌱 I’m currently learning Full Stack Web Development
+- 💞️ I’m looking to collaborate on Web Development
 - 📫 How to reach me, through my email, "shreyaz.ray@hotmail.com"
 
 <!---
