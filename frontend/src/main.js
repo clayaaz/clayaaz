@@ -52,13 +52,11 @@ function moveCamera() {
 // Mouse movement variables
 let mouseX = 0;
 let mouseY = 0;
-let targetMouse = new THREE.Vector2(0, 0);
-let mouseSpeed = 0.05;
 
 // Update mouse target smoothly
 document.addEventListener('mousemove', function (e) {
-    targetMouse.x = (e.clientX - window.innerWidth / 2) / 100;
-    targetMouse.y = (e.clientY - window.innerHeight / 2) / 100;
+    mouseX= (e.clientX - window.innerWidth / 2) / 100;
+    mouseY = (e.clientY - window.innerHeight / 2) / 100;
 });
 
 document.body.onscroll = moveCamera;
@@ -71,8 +69,8 @@ function animate() {
     camera.position.lerp(targetPosition, scrollSpeed);
 
     // Smoothly interpolate camera position based on mouse movement
-    camera.position.x += (targetMouse.x - camera.position.x) * mouseSpeed;
-    camera.position.y += (-targetMouse.y - camera.position.y) * mouseSpeed;
+    camera.position.x += (mouseX - camera.position.x);
+    camera.position.y += (-mouseY- camera.position.y);
 
 
     renderer.setSize(window.innerWidth, window.innerHeight);
