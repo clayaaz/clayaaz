@@ -1,5 +1,5 @@
 # 💫 About Me:
-👋 Hi, I’m @clayaaz<br>👀 I’m interested in AI<br>🌱 I’m currently learning Full Stack Web Development<br>💞️ I’m looking to collaborate on Web Development<br>📫 How to reach me, through my email, "shreyaz.ray@hotmail.com"
+👋 Hi, I’m Shreyaz Ray<br>👀 I’m interested in AI<br>🌱 I’m currently learning Full Stack Web Development<br>💞️ I’m looking to collaborate on Web Development<br>📫 How to reach me, through my email, "shreyaz.ray@hotmail.com"
 
 
 ## 🌐 Socials:
